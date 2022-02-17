@@ -6,7 +6,7 @@ Instructions to install complete hawk solution using sock shop microservices
 | Alias | Complete Command  |
 |-------|-------------------|
 | tf    | terraform         |
-| kaf   | kkubectl apply -f |
+| kaf   | kubectl apply -f |
 
 ## Steps
 
@@ -14,9 +14,9 @@ Instructions to install complete hawk solution using sock shop microservices
 
 ```shell
 cd 01.terraform
-terraform init
-terraform workspace new blue
-terraform apply
+tf init
+tf workspace new blue
+tf apply
 ```
 
 [Video create infrastructure and install istio](https://asciinema.org/a/MzscarSqYi1P3z3LNUV9vm0JR)
@@ -52,5 +52,12 @@ kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.12/samp
 
 ```shell
 cd 03.hawk-core
+kaf .
+```
+
+5. Run load test
+
+```shell
+cd 05.loadtest
 kaf .
 ```
