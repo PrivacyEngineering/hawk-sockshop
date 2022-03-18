@@ -1,5 +1,7 @@
-# hawk
-Instructions to install complete hawk solution using sock shop microservices
+# Hawk SockShop
+
+An example Hawk installation using the [WeaveWorks SockShop](https://github.com/microservices-demo/microservices-demo)
+, integrated with some of Hawk components.
 
 ## Aliases
 
