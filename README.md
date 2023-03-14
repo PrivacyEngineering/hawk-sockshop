@@ -26,8 +26,8 @@ tf apply
 2. Authenticate google cluster in local machine
 
 ```shell
-gcloud container clusters get-credentials --zone us-central1 --project dsp-sock-shop-juan $(terraform workspace show)-gke-sock-shop
-kubectx gke-$(terraform workspace show)=gke_dsp-sock-shop-juan_us-central1_$(terraform workspace show)-gke-sock-shop
+gcloud container clusters get-credentials --zone us-central1 --project sock-shop $(terraform workspace show)-gke-sock-shop
+kubectx gke-$(terraform workspace show)=gke_sock-shop_us-central1_$(terraform workspace show)-gke-sock-shop
 ```
 
 4. Install sock-shop microservices

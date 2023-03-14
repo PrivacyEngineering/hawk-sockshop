@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = "dsp-sock-shop-juan"
+  project = "sock-shop"
   region  = "us-central1"
   zone    = "us-central1-c"
 }

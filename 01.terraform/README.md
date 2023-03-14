@@ -21,8 +21,8 @@ Experimental: Create kubernetes deployment and service with kubernetes provider 
 These steps will be replace by terraform files
 
 1. Run `gcloud auth login` to get a token
-1. Run `gcloud container clusters get-credentials --zone us-central1 --project dsp-sock-shop-juan $(terraform workspace show)-gke-sock-shop` to authenticate with your cluster. Replace project and zone according to your setup
-1. Rename cluster with `kubectx gke-$(terraform workspace show)=gke_dsp-sock-shop-juan_us-central1_$(terraform workspace show)-gke-sock-shop`
+1. Run `gcloud container clusters get-credentials --zone us-central1 --project sock-shop $(terraform workspace show)-gke-sock-shop` to authenticate with your cluster. Replace project and zone according to your setup
+1. Rename cluster with `kubectx gke-$(terraform workspace show)=gke_sock-shop_us-central1_$(terraform workspace show)-gke-sock-shop`
 
 ## Optional: Install istio with istioctl
 
