@@ -1,7 +1,6 @@
 # Hawk SockShop
 
-An example Hawk installation using the [WeaveWorks SockShop](https://github.com/microservices-demo/microservices-demo)
-, integrated with some of Hawk components.
+An example Hawk installation using the [WeaveWorks SockShop](https://github.com/microservices-demo/microservices-demo), integrated with some of Hawk components.
 
 _We provide a simple [terraform](#terraform-install) install as well as plain [kubernetes](#kubernetes-install) install instructions._
 
@@ -71,11 +70,11 @@ kaf .
 ## Kubernetes install
 ### Steps
 
-1. Set up a kubernetes environment and configure kubectl (see: https://kubernetes.io/docs/setup/)
+1. Set up a Kubernetes environment and configure kubectl (see https://kubernetes.io/docs/setup/)
 
-2. Install istio and istioctl following the steps in the istio getting started documentation under https://istio.io/latest/docs/setup/getting-started/
+2. Install Istio and istioctl following the steps in the Istio getting started documentation under https://istio.io/latest/docs/setup/getting-started/
 
-    2.1 Install istio in your kubernetes environment with a [configuration profile](https://istio.io/latest/docs/setup/additional-setup/config-profiles/) of your liking
+    2.1 Install Istio in your Kubernetes environment with a [configuration profile](https://istio.io/latest/docs/setup/additional-setup/config-profiles/) of your liking
     ```sh
     istioctl install --set profile=default -y
     ```
