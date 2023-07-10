@@ -1,5 +1,21 @@
 # Hawk SockShop
 
+We published Hawk at the 16th IEEE International Conference on Cloud Computing 2023, IEEE Cloud 2023.
+Please find our paper on Hawk here: https://arxiv.org/abs/2306.02496
+
+## BibTex citation:
+```
+@misc{grünewald2023hawk,
+      title={Hawk: DevOps-driven Transparency and Accountability in Cloud Native Systems}, 
+      author={Elias Grünewald and Jannis Kiesel and Siar-Remzi Akbayin and Frank Pallas},
+      year={2023},
+      eprint={2306.02496},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC}
+}
+```
+## Overview
+
 An example Hawk installation using the [WeaveWorks SockShop](https://github.com/microservices-demo/microservices-demo), integrated with some of Hawk components.
 
 _We provide a simple [terraform](#terraform-install) install as well as plain [kubernetes](#kubernetes-install) install instructions._
