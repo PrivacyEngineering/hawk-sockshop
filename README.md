@@ -131,6 +131,10 @@ kubectl -n sock-shop port-forward svc/front-end 8080:80
 kubectl get pods -A
 ```
 
+10. Set up grafana
+```
+collector.hawk-ns.svc.cluster.local
+```
 <details>
 <summary>This command should produce an output similar to this output. (Click to view full output.)</summary>
 
