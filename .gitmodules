@@ -1,0 +1,6 @@
+[submodule "hawk"]
+	path = hawk
+	url = https://github.com/PrivacyEngineering/hawk
+[submodule "hawk-envoy-plugin"]
+	path = hawk-envoy-plugin
+	url = https://github.com/PrivacyEngineering/hawk-envoy-plugin
