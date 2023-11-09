@@ -18,19 +18,26 @@ Please find our paper on Hawk here: https://arxiv.org/abs/2306.02496
 
 This is an example of the Hawk core functionalities using the [WeaveWorks SockShop](https://github.com/microservices-demo/microservices-demo).
 
-_We provide a [Helm](#Helm-install) chart as a default deployment example._
+_We provide a [Helm](#helm-deployment-on-a-minikube-host) installation instruction as a default deployment example._
 
 _Additionally we provide with legacy installation examples for [terraform](DEPLOYMENT.md#terraform-install) and [kubernetes](DEPLOYMENT.md#kubernetes-install) that you can adapt to your liking._
 
 ## Helm deployment on a minikube host
+
+### Requirements
+- minikube
+- helm
+- istioctl
+
+### Getting started
 
 1. Install minikube
 2. Enable the minikube ingress addon:
     
     ```minikube addons enable ingress```
 
-3. Follow the helm deployment instructions of the [Hawk](./hawk/README.md#deployment-through-helm) repository.
-4. Follow the deployment instructions of the [envoy integrations](./hawk-envoy-plugin/README.md#deployment-through-helm) repository. 
+3. Follow the helm deployment instructions of the [Hawk](./hawk/README.md#deployment-through-helm) repository. (On GitHub click [here](https://github.com/PrivacyEngineering/hawk/#deployment-through-helm))
+4. Follow the deployment instructions of the [envoy integrations](./hawk-envoy-plugin/README.md#deployment-through-helm) repository. (On GitHub click [here](https://github.com/PrivacyEngineering/hawk-envoy-plugin#deployment-through-helm))
 5. Install the Sock Shop microservice demo:
 
     ```kubectl apply -f ./02.sock-shop```
